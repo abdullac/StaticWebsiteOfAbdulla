@@ -1,0 +1,349 @@
+/*
+#nav{
+    z-index: 9999;
+  }
+
+
+.goToHomeImg{
+    width: 4rem;
+    height: 4rem; 
+    border-radius: 50%;
+    margin-top: -1.5rem;
+    box-shadow: 1.5px 1.5px 8px #045d74;
+    cursor: pointer;
+}
+.goToHomeImg:hover{
+    width: 4.1rem;
+    height: 4.1rem;
+    margin-top: -1.6rem;
+    margin-left: -.1rem;
+}
+
+.navBarTexts{
+}
+
+.navBarTxts{
+}
+
+.container-fluid{
+    padding-top: 1.2rem;
+}
+
+.row{
+    padding-left: 0.75rem;
+}*/
+/*
+.cntnr{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: -2px 2px 30px rgba(19, 163, 199, 0.658);
+  }
+  */
+/*
+.navbar-nav{
+    margin-top: 1.1rem;
+}
+.navbar .navbar-nav .nav-link {
+    color:  rgb(181, 235, 253);
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 2rem;
+    margin-left: 0.5rem;
+    text-shadow: 1px 1px 2px #1084a1;
+}
+.navbar-nav .nav-link:hover{
+    color:  rgb(172, 230, 248);
+    background-color:  #16bce6;
+    text-shadow: 1px 1px 2px rgb(106, 214, 250);
+}
+*/
+/*
+.iconsSM:hover{
+    width: 2.3rem; 
+    height: 2.3rem;
+    margin: 0.245rem;
+}
+.navbar-text{
+    margin-right: 1.1rem;
+}
+.instIcon:hover{
+    color: rgb(199, 89, 247);
+}
+.wtsapIcon:hover{
+    color: rgb(1, 189, 1);
+}
+.msngrIcon:hover{
+    color: rgba(102, 22, 252, 0.925);
+}
+.fcbkIcon:hover{
+    color: rgba(35, 39, 250, 0.801);
+}
+.tlgrmIcon:hover{
+    color: #0397ec;
+}
+.twtrIcon:hover{
+    color: #0084ff;
+}
+.ytbIcon:hover{
+    color: rgba(255, 0, 0, 0.89);
+}
+
+
+
+.name{
+    font-size: 3.9rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.iAm{
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+///////////////////////////////////////
+*/
+
+
+
+.navBarFixTop{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.home{
+    background-image: url("onur.jpg");
+    background-color: #b8fcf6; /* Used if the image is unavailable */
+  height: 100%; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.portfilioSection{
+    background-image: url("philip.jpg");
+    background-color: #c72489; /* Used if the image is unavailable */
+    height: 100%; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.bgKeyboard{
+    background-image: url("whiteKeyboard.jpg");
+    background-color: #82f8eebb; /* Used if the image is unavailable */
+    height: 100%; /* You must set a specified height */
+    background-position: right; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.4rem;
+}
+
+.textShadow1{
+    text-shadow: 2px 1px 3px #002b2b;
+}
+.textShadow2{
+    text-shadow: 2px 1px 3px #00ffff;
+}
+.textShadow3{
+    text-shadow: 2px 2px 3px #028383;
+}
+
+.cyanTextDark{
+    color: #003036;
+}
+.cyanTextNormal{
+    color: #04cae4;
+}
+.cyanTextLight{
+    color: #51e6fa;
+}
+.cyanTextXLight{
+    color: #8feffa;
+}
+
+.cyanBgNormal{
+    background: #04cae4;
+}
+.cyanBgLight{
+    background: #51e6fa;
+}
+.cyanBgXLight{
+    background: #8feffa;
+}
+.cyanBgXxLight{
+    background: #b8f8ff;
+}
+.cyanBgXxxLight{
+    background: #e1f7fa;
+}
+
+
+.cyanBgColor-100{
+    background: #00ACC1;
+}
+.cyanTextColor-100{
+    color:#00ACC1;
+}
+.pinkBgColor-100{
+    background: #d63384;
+}
+.pinkTextColor-100{
+    color: #d63384;
+}
+
+.cyanBgColor-75{
+    background: #00abc1d0;
+}
+.cyanTextColor-75{
+    color:#00abc1d0;
+}
+.pinkBgColor-75{
+    background: #d63384d8;
+}
+.pinkTextColor-75{
+    color: #d63384d8;
+}
+
+.cyanBgColor-50{
+    background: #00abc18f;
+}
+.cyanTextColor-50{
+    color:#00abc18f;
+}
+.pinkBgColor-50{
+    background: #d633848e;
+}
+.pinkTextColor-50{
+    color: #d633848e;
+}
+
+.cyanBgColor-25{
+    background: #00abc149;
+}
+.cyanTextColor-25{
+    color:#00abc149;
+}
+.pinkBgColor-25{
+    background: #d633844b;
+}
+.pinkTextColor-25{
+    color: #d633844b;
+}
+
+.cyanBgColor-10{
+    background: #00abc115;
+}
+.cyanTextColor-10{
+    color:#00abc115;
+}
+.pinkBgColor-10{
+    background: #d633841c;
+}
+.pinkTextColor-10{
+    color: #d633841c;
+}
+
+
+.imageHover{
+    transition: 0.14s;
+    box-shadow: 3px 3px 6px #5e5d5d83;
+    padding: 0rem;
+}
+.imageHover:hover{
+    box-shadow: none;
+    padding: 0.1rem;
+    filter: grayscale(0.1) brightness(0.9); 
+    margin-right: -0.2rem;
+}
+
+.listHover{
+    box-shadow: 1px 1px 6px #5e5d5d44;
+}
+.listHover:hover{
+    filter: grayscale(0) brightness(1.05); 
+    box-shadow: 1px 1px 6px #5e5d5d2f;
+    background: #26c6db83;
+}
+
+.buttonHover{
+    box-shadow: 1px 1px 6px #5e5d5d44;
+    transition: 0.2s;
+}
+.buttonHover:hover{
+    filter: grayscale(0) brightness(1.05); 
+    box-shadow: 0px 0px 0px #0084ff02;
+}
+
+.iconsSM:hover{
+    width: 2.3rem; 
+    height: 2.3rem;
+    margin: 0.245rem;
+}
+
+.iconsSM{
+    width: 2rem; 
+    height: 2rem;
+    margin: 0.4rem;
+}
+.iconsSM:hover{
+    width: 2.3rem; 
+    height: 2.3rem;
+    margin: 0.245rem;
+}
+
+
+.instIcon:hover{
+    color: rgb(199, 89, 247);
+}
+.wtsapIcon:hover{
+    color: rgb(1, 189, 1);
+}
+.msngrIcon:hover{
+    color: rgba(102, 22, 252, 0.925);
+}
+.fcbkIcon:hover{
+    color: rgba(35, 39, 250, 0.801);
+}
+.tlgrmIcon:hover{
+    color: #0397ec;
+}
+.twtrIcon:hover{
+    color: #0084ff;
+}
+.ytbIcon:hover{
+    color: rgba(255, 0, 0, 0.89);
+}
+
+
+
+.linkDecoration{
+color:#8feffa !important; }
+
+
+
+linkDecoration:link {
+    color: #8feffa;
+  }
+  linkDecoration:visited {
+    color: #8feffa;
+  }
+  linkDecoration:hover {
+    color: #8feffa;
+  }
+  linkDecoration:active {
+    color: #8feffa;
+  }
+
+
+  .cardStyle{
+    max-width:40rem;
+    font-size: 0.9rem;
+    min-height: 23rem;
+    color: #d63384;
+  }
