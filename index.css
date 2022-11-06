@@ -116,7 +116,7 @@
 }
 
 .home{
-    background-image: url("onur.jpg");
+    background-image: url("newonur.jpg");
     background-color: #b8fcf6; /* Used if the image is unavailable */
   height: 100%; /* You must set a specified height */
   background-position: center; /* Center the image */
@@ -134,7 +134,7 @@
 }
 
 .bgKeyboard{
-    background-image: url("whiteKeyboard.jpg");
+    background-image: url("newwhiteKeyboard.jpg");
     background-color: #82f8eebb; /* Used if the image is unavailable */
     height: 100%; /* You must set a specified height */
     background-position: right; /* Center the image */
