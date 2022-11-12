@@ -1,5 +1,75 @@
+
+
 .navbarColor, .footerColor{
     background: linear-gradient(297deg, rgba(2,123,139,1) 2%, rgba(0,171,193,1) 16%, rgba(0,171,193,1) 55%, rgba(0,171,193,1) 79%, rgba(46,197,215,1) 100%);
+}
+
+.navBarFixTop{  
+    z-index: 9999;
+    position: fixed;
+    top: 0; 
+    width: 100%;
+}
+
+
+.imageIcon{
+    transition: 0.11s;
+    box-shadow: 3px 3px 6px #5e5d5d83;
+    padding: 0rem;
+}
+.imageIcon:hover{
+    box-shadow: none;
+    padding: 0.1rem;
+    filter: grayscale(0.1) brightness(0.9); 
+    margin-right: -0.2rem;
+}
+
+
+.listHover{
+    box-shadow: 1px 1px 6px #5e5d5d44;
+}
+.listHover:hover{
+    filter: grayscale(0) brightness(1.05); 
+    box-shadow: 1px 1px 6px #5e5d5d2f;
+    background: #26c6db83;
+}
+
+
+.instIcon, .wtsapIcon, .msngrIcon, .fcbkIcon, .tlgrmIcon, .twtrIcon, .ytbIcon{
+    width: 2rem; 
+    height: 2rem;
+    margin: 0.4rem;
+    max-height: 4rem;
+    max-width: 4rem;
+    color: #04cae4;
+}
+.instIcon:hover, .wtsapIcon:hover, .msngrIcon:hover, .fcbkIcon:hover, .tlgrmIcon:hover, .twtrIcon:hover, .ytbIcon:hover{
+    width: 2.31rem; 
+    height: 2.3rem;
+    margin: 0.245rem;
+    max-height: 4rem;
+    max-width: 4rem;
+}
+.instIcon:hover{
+    color: rgb(199, 89, 247);
+}
+.wtsapIcon:hover{
+    color: rgb(1, 189, 1);
+}
+.msngrIcon:hover{
+    color: rgba(102, 22, 252, 0.925);
+}
+.fcbkIcon:hover{
+    color: rgba(35, 39, 250, 0.801);
+}
+.tlgrmIcon:hover{
+    color: #0397ec;
+}
+.twtrIcon:hover{
+    color: #0084ff;
+}
+.ytbIcon:hover{
+    color: rgba(255, 0, 0, 0.89);
 }
 
 
@@ -26,7 +96,7 @@
 .cyanTextcolor2{
     background-color: #00ACC1;
     background-image: linear-gradient(145deg, #c8f3f8, #00ACC1,#026977);
-    background-size: 33%;
+    background-size: 34%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent; 
@@ -38,6 +108,7 @@
     color:#00abc1;
     text-shadow: 2px 1px 3px #002b2b;
 }
+
 
 .suggestButton{
     background-color: #00ACC1;
@@ -56,6 +127,7 @@
 
 }
 
+
 .inputArea{
     background-image: linear-gradient(145deg, #88d4dcca,#88d4dcc6);
     box-shadow: 0.03rem 0.03rem 0.3rem #32b2c0ca;
@@ -66,21 +138,14 @@
 }
 
 
+.cardStyle{
+    max-width:40rem;
+    font-size: 0.9rem;
+    min-height: 23rem;
+    color: #d63384;
+  }
 
-
-
-
-
-
-/*////////////////////////////////////////  */
-
-.navBarFixTop{
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
-
+  
 .home{
     background-image: url("newonur.jpg");
     background-color: #b8fcf6; /* Used if the image is unavailable */
@@ -99,7 +164,7 @@
     background-size: cover; /* Resize the background image to cover the entire container */
 }
 
-.bgKeyboard{
+.cardtextBg{
     background-image: url("newwhiteKeyboard.jpg");
     background-color: #82f8eebb; /* Used if the image is unavailable */
     height: 100%; /* You must set a specified height */
@@ -110,169 +175,4 @@
     border-bottom-right-radius: 0.4rem;
 }
 
-.textShadow1{
-    text-shadow: 2px 1px 3px #002b2b;
-}
-.textShadow2{
-    text-shadow: 2px 1px 3px #00ffff;
-}
-.textShadow3{
-    text-shadow: 2px 2px 3px #028383;
-}
 
-.cyanTextDark{
-    color: #003036;
-}
-.cyanTextNormal{
-    color: #04cae4;
-}
-.cyanTextLight{
-    color: #51e6fa;
-}
-.cyanTextXLight{
-    color: #8feffa;
-}
-
-.cyanBgNormal{
-    background: #04cae4;
-}
-.cyanBgLight{
-    background: #51e6fa;
-}
-.cyanBgXLight{
-    background: #8feffa;
-}
-.cyanBgXxLight{
-    background: #b8f8ff;
-}
-.cyanBgXxxLight{
-    background: #e1f7fa;
-}
-
-
-.cyanBgColor-100{
-    background: linear-gradient(297deg, rgba(2,123,139,1) 2%, rgba(0,171,193,1) 16%, rgba(0,171,193,1) 55%, rgba(0,171,193,1) 79%, rgba(46,197,215,1) 100%);
-
-}
-
-
-
-
-/*
-.cyanTextColor-100{
-    background: -webkit-linear-gradient(145deg, rgba(2,123,139,1) 54%, rgba(0,171,193,1) 65%, rgba(0,171,193,1) 88%, rgba(46,197,215,1) 96%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;}
-
-.cyanTextColor-100{
-    color:#00ACC1;
-}
-*/
-
-
-/*
-.pinkTextColor-75{
-    color: #d63384d8;
-}
-*/
-
-
-
-.pinkTextColor-50{
-    color: #d633848e;
-}
-
-
-
-
-
-.imageIcon{
-    transition: 0.11s;
-    box-shadow: 3px 3px 6px #5e5d5d83;
-    padding: 0rem;
-}
-.imageIcon:hover{
-    box-shadow: none;
-    padding: 0.1rem;
-    filter: grayscale(0.1) brightness(0.9); 
-    margin-right: -0.2rem;
-}
-
-.listHover{
-    box-shadow: 1px 1px 6px #5e5d5d44;
-}
-.listHover:hover{
-    filter: grayscale(0) brightness(1.05); 
-    box-shadow: 1px 1px 6px #5e5d5d2f;
-    background: #26c6db83;
-}
-
-
-
-.iconsSM:hover{
-    width: 2.3rem; 
-    height: 2.3rem;
-    margin: 0.245rem;
-}
-
-.iconsSM{
-    width: 2rem; 
-    height: 2rem;
-    margin: 0.4rem;
-}
-.iconsSM:hover{
-    width: 2.3rem; 
-    height: 2.3rem;
-    margin: 0.245rem;
-}
-
-
-.instIcon:hover{
-    color: rgb(199, 89, 247);
-}
-.wtsapIcon:hover{
-    color: rgb(1, 189, 1);
-}
-.msngrIcon:hover{
-    color: rgba(102, 22, 252, 0.925);
-}
-.fcbkIcon:hover{
-    color: rgba(35, 39, 250, 0.801);
-}
-.tlgrmIcon:hover{
-    color: #0397ec;
-}
-.twtrIcon:hover{
-    color: #0084ff;
-}
-.ytbIcon:hover{
-    color: rgba(255, 0, 0, 0.89);
-}
-
-
-
-.linkDecoration{
-color:#8feffa !important; }
-
-
-
-linkDecoration:link {
-    color: #8feffa;
-  }
-  linkDecoration:visited {
-    color: #8feffa;
-  }
-  linkDecoration:hover {
-    color: #8feffa;
-  }
-  linkDecoration:active {
-    color: #8feffa;
-  }
-
-
-  .cardStyle{
-    max-width:40rem;
-    font-size: 0.9rem;
-    min-height: 23rem;
-    color: #d63384;
-  }
